@@ -1,0 +1,64 @@
+body {	
+	@media only screen and (min-width: 1600px) { 
+		header {
+			
+			nav {
+				max-width: 25%;
+			}
+			img {
+				
+			}
+			h4 {
+
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1200px) {
+		header {
+			
+			nav {
+				max-width: 33%;
+			}
+			img {
+				
+			}
+			h4 {
+
+			}
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		header {
+			height: 5rem;
+			flex-direction: row;
+
+			nav {
+				order: 2;
+				flex-grow: 8;
+				align-self: center;
+			}
+			img {
+				order: 1;
+				flex-grow: 1;
+				max-height: 75%;
+			}
+			h4 {
+				&.headline {
+					display: none;
+
+				}
+			}
+		}
+
+		.container {
+			max-width: 75%;
+			margin-top: 6rem;
+
+			section {
+			
+			}
+		}
+	}
+}

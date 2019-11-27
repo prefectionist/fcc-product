@@ -1,0 +1,35 @@
+@media only screen and (min-width: 1600px) {
+  body header nav {
+    max-width: 25%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body header nav {
+    max-width: 33%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body header {
+    height: 5rem;
+    flex-direction: row;
+  }
+  body header nav {
+    order: 2;
+    flex-grow: 8;
+    align-self: center;
+  }
+  body header img {
+    order: 1;
+    flex-grow: 1;
+    max-height: 75%;
+  }
+  body header h4.headline {
+    display: none;
+  }
+  body .container {
+    max-width: 75%;
+    margin-top: 6rem;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
